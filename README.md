@@ -1,1 +1,32 @@
-# DmitriyShabelko.github.io
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Крестики</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script rel="stylesheet" type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<header class="content">
+		<hr class="hr1">
+		<table class="hr2"></table>
+		<hr class="hr4">
+		<table class="hr3"></table>
+		<button class="or" onclick="buttonClick()">Заново</button>
+	
+		<input type="" name="" class="left top input" id="0" onclick="MakeMove(this)">	
+		<input type="" name="" class="midle top input" id="1" onclick="MakeMove(this)">
+		<input type="" name="" class="right top input" id="2" onclick="MakeMove(this)">
+		<input type="" name="" class="left center input" id="3" onclick="MakeMove(this)">
+		<input type="" name="" class="midle center input" id="4" onclick="MakeMove(this)">
+		<input type="" name="" class="right center input" id="5" onclick="MakeMove(this)">
+		<input type="" name="" class="left bottom input" id="6" onclick="MakeMove(this)">
+		<input type="" name="" class="midle bottom input" id="7" onclick="MakeMove(this)">
+		<input type="" name="" class="right bottom input" id="8" onclick="MakeMove(this)">
+		
+		<div class="krest"></div>
+		<div class="bublik"></div>
+	</header>
+	
+</body>
+</html>
